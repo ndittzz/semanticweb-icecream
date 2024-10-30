@@ -1,0 +1,824 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#additives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#afternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alcoholic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#almondMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#berry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birthday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brownie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#butter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cheap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#choco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classicFlavors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coldWeather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coolWeather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinkCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinkHotChocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinkMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinkMilkShake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinkPairing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#durian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eatingTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expensive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foodPairing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fruitFlavors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gelato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavyFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#holiday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#honey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hotWeather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iceBar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iceCream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lightFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mangga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matcha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nonDairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#notPairedWithDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#notPairedWithFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nuts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oatMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#occasions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pairedWithDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pairedWithFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pairing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pastry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pengawet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pewarna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#picnic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saltyFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#servingStyles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shaved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sorbet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soyMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#specialFlavors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sprinkles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sugarCone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweeteners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#timeOfDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toppings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unwrapped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vanila"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waffle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waffleCone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#warmWeather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weatherConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#withBread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wrapped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yogurt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestEatingTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestNotDrinkPairing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestOccasions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestPairing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestPairingWithDrink"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestPairingWithFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestServingStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestTimeOfDay"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestWeatherConditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAdditive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClassicFlavor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFlavors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFruitFlavors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngridient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecialFlavors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSweeteners"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToppings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTypeHard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTypeSoft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnwrapped"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWrapped"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cornetto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#magnum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#walls"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#additives"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#afternoon"/>
+        <Class IRI="#timeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alcoholic"/>
+        <Class IRI="#notPairedWithDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#almondMilk"/>
+        <Class IRI="#nonDairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banana"/>
+        <Class IRI="#fruitFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#berry"/>
+        <Class IRI="#fruitFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birthday"/>
+        <Class IRI="#occasions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bread"/>
+        <Class IRI="#pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brownie"/>
+        <Class IRI="#pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butter"/>
+        <Class IRI="#dairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cheap"/>
+        <Class IRI="#price"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#choco"/>
+        <Class IRI="#toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chocolate"/>
+        <Class IRI="#classicFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#classicFlavors"/>
+        <Class IRI="#flavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coffee"/>
+        <Class IRI="#specialFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coldWeather"/>
+        <Class IRI="#weatherConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cone"/>
+        <Class IRI="#wrapped"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coolWeather"/>
+        <Class IRI="#weatherConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cow"/>
+        <Class IRI="#milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cream"/>
+        <Class IRI="#dairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cup"/>
+        <Class IRI="#wrapped"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dairyProducts"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinkCoffee"/>
+        <Class IRI="#pairedWithDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinkHotChocolate"/>
+        <Class IRI="#pairedWithDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinkMilk"/>
+        <Class IRI="#pairedWithDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinkMilkShake"/>
+        <Class IRI="#pairedWithDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinkPairing"/>
+        <Class IRI="#pairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#durian"/>
+        <Class IRI="#fruits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evening"/>
+        <Class IRI="#timeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expensive"/>
+        <Class IRI="#price"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food"/>
+        <Class IRI="#notPairedWithFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foodPairing"/>
+        <Class IRI="#pairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fruitFlavors"/>
+        <Class IRI="#flavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fruits"/>
+        <Class IRI="#pairedWithFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gelato"/>
+        <Class IRI="#soft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goat"/>
+        <Class IRI="#milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#iceCream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavyFood"/>
+        <Class IRI="#food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#holiday"/>
+        <Class IRI="#occasions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honey"/>
+        <Class IRI="#sweeteners"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hotWeather"/>
+        <Class IRI="#weatherConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iceBar"/>
+        <Class IRI="#hard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lightFood"/>
+        <Class IRI="#food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mangga"/>
+        <Class IRI="#fruits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#matcha"/>
+        <Class IRI="#specialFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#milk"/>
+        <Class IRI="#dairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mint"/>
+        <Class IRI="#specialFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morning"/>
+        <Class IRI="#timeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#night"/>
+        <Class IRI="#timeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nonDairyProducts"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#notPairedWithDrink"/>
+        <Class IRI="#drinkPairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#notPairedWithFood"/>
+        <Class IRI="#foodPairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nuts"/>
+        <Class IRI="#toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oatMilk"/>
+        <Class IRI="#nonDairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#occasions"/>
+        <Class IRI="#eatingTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pairedWithDrink"/>
+        <Class IRI="#drinkPairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pairedWithFood"/>
+        <Class IRI="#foodPairing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pastry"/>
+        <Class IRI="#pairedWithFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pengawet"/>
+        <Class IRI="#additives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pewarna"/>
+        <Class IRI="#additives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#picnic"/>
+        <Class IRI="#occasions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rice"/>
+        <Class IRI="#heavyFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saltyFood"/>
+        <Class IRI="#lightFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shaved"/>
+        <Class IRI="#soft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soft"/>
+        <Class IRI="#iceCream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorbet"/>
+        <Class IRI="#soft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soyMilk"/>
+        <Class IRI="#nonDairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#specialFlavors"/>
+        <Class IRI="#flavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sprinkles"/>
+        <Class IRI="#toppings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stick"/>
+        <Class IRI="#wrapped"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugar"/>
+        <Class IRI="#sweeteners"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugarCone"/>
+        <Class IRI="#cone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#summer"/>
+        <Class IRI="#occasions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sundae"/>
+        <Class IRI="#soft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweeteners"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#timeOfDay"/>
+        <Class IRI="#eatingTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unwrapped"/>
+        <Class IRI="#servingStyles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vanila"/>
+        <Class IRI="#classicFlavors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#waffle"/>
+        <Class IRI="#pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#waffleCone"/>
+        <Class IRI="#cone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#warmWeather"/>
+        <Class IRI="#weatherConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weatherConditions"/>
+        <Class IRI="#eatingTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#withBread"/>
+        <Class IRI="#unwrapped"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wrapped"/>
+        <Class IRI="#servingStyles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yogurt"/>
+        <Class IRI="#dairyProducts"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#aice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#cornetto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#magnum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#walls"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <ObjectProperty IRI="#bestPairing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <ObjectProperty IRI="#bestPairing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestNotDrinkPairing"/>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestOccasions"/>
+        <ObjectProperty IRI="#bestEatingTime"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestPairingWithDrink"/>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestPairingWithFood"/>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestTimeOfDay"/>
+        <ObjectProperty IRI="#bestEatingTime"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestWeatherConditions"/>
+        <ObjectProperty IRI="#bestEatingTime"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAdditive"/>
+        <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClassicFlavor"/>
+        <ObjectProperty IRI="#hasFlavors"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFruitFlavors"/>
+        <ObjectProperty IRI="#hasFlavors"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+        <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpecialFlavors"/>
+        <ObjectProperty IRI="#hasFlavors"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTypeHard"/>
+        <ObjectProperty IRI="#hasType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTypeSoft"/>
+        <ObjectProperty IRI="#hasType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUnwrapped"/>
+        <ObjectProperty IRI="#bestServingStyle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWrapped"/>
+        <ObjectProperty IRI="#bestServingStyle"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,479 @@
+Prefix(:=<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6>
+
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped>))
+Declaration(Class(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls>))
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles>)
+
+# Class: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt>)
+
+SubClassOf(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice>)
+
+ClassAssertion(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice>)
+
+# Individual: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto>)
+
+ClassAssertion(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto>)
+
+# Individual: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum>)
+
+ClassAssertion(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum>)
+
+# Individual: <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls> (<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls>)
+
+ClassAssertion(<http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand> <http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls>)
+
+
+)

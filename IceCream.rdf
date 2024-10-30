@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hasIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#afternoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#aice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#alcoholic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#almondMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#banana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#berry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#birthday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#bread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brownie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#butter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cheap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#choco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coldWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#coolWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cornetto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkCoffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkHotChocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkMilkShake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#durian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#evening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#expensive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruitFlavors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#gelato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#goat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#holiday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#honey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hotWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceBar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#hard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#magnum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mangga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#matcha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#mint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#morning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#night">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithDrink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#notPairedWithFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nuts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#oatMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithDrink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#drinkPairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#foodPairing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pairedWithFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pengawet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pewarna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#additives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#picnic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#rice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#heavyFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#saltyFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#lightFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#shaved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#iceCream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sorbet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soyMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#nonDairyProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#specialFlavors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#flavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sprinkles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#stick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sugarCone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#summer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#occasions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sundae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#soft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#sweeteners">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#timeOfDay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#toppings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#vanila">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#classicFlavors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#pastry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#waffleCone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#cone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#walls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#warmWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#weatherConditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#eatingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#withBread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#unwrapped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#wrapped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#servingStyles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#yogurt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akbar/ontologies/2024/8/untitled-ontology-6#dairyProducts"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
