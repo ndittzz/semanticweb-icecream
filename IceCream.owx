@@ -13,16 +13,10 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#additives"/>
+        <Class IRI="#additionalMaterials"/>
     </Declaration>
     <Declaration>
         <Class IRI="#brand"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cup"/>
     </Declaration>
     <Declaration>
         <Class IRI="#dairyProducts"/>
@@ -37,19 +31,10 @@
         <Class IRI="#flavors"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#food"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#foodPairing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fruitFlavors"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#fruits"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hard"/>
     </Declaration>
     <Declaration>
         <Class IRI="#iceCream"/>
@@ -58,31 +43,10 @@
         <Class IRI="#ingredient"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#milk"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#nonDairyProducts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#notPairedWithDrink"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#notPairedWithFood"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#occasions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#pairedWithDrink"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#pairedWithFood"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#pairingWith"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#pastry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#price"/>
@@ -91,16 +55,7 @@
         <Class IRI="#servingStyles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#soft"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stick"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#sweeteners"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#timeOfDay"/>
     </Declaration>
     <Declaration>
         <Class IRI="#toppings"/>
@@ -109,49 +64,28 @@
         <Class IRI="#type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#unwrapped"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#weatherConditions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#wrapped"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#bestDrinkPairing"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#bestEating"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#bestFoodPairing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestNotDrinkPairing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestNotFoodPairing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestOccasions"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestPairing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestPairingWithDrink"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#bestPairingWithFood"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#bestServingStyle"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#bestTimeOfDay"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#bestWeatherConditions"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAdditive"/>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBrand"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDairyProducts"/>
@@ -169,6 +103,9 @@
         <ObjectProperty IRI="#hasNonDairyProducts"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasSweeteners"/>
     </Declaration>
     <Declaration>
@@ -178,43 +115,326 @@
         <ObjectProperty IRI="#hasType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTypeHard"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTypeSoft"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasUnwrapped"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasWrapped"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#brand"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#aice"/>
+        <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#cornetto"/>
+        <NamedIndividual IRI="#almonds"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#magnum"/>
+        <NamedIndividual IRI="#bakedBeans"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#walls"/>
+        <NamedIndividual IRI="#banana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biscuits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackCoffee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackTea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brand9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brownie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caramel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cheap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolateCake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolateChips"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolateFudge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolatePowder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolateSyrup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconutCream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconutJuice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconutSugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconutWater"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cofee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cornSyrup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doughCookies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#espresso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#expensive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruitJuice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruitSalad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fudgeSyrup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gratedCoconut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#greenTea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#honey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotChocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotWeather"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iceCream9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#icedTea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liquidCaramel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mango"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mascarpone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matcha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matchaMilk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matchaPowder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matchaSyrup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meltedChocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#milk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mintLeaves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mochi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#occasion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orangeJuice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oreo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oreoChips"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peanut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pistachio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pistachioNuts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raisins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roastedAlmonds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roastedRaisins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#saltedCaramel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seaSalt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shortcake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shortcakeCrumbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sliceBanana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sliceMango"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strawbery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tiramisuCake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vanilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vanillaBean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wafer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wine"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#additives"/>
+        <Class IRI="#additionalMaterials"/>
         <Class IRI="#ingredient"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cone"/>
-        <Class IRI="#wrapped"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cup"/>
-        <Class IRI="#wrapped"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#dairyProducts"/>
@@ -223,10 +443,6 @@
     <SubClassOf>
         <Class IRI="#drinkPairing"/>
         <Class IRI="#pairingWith"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#food"/>
-        <Class IRI="#notPairedWithFood"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#foodPairing"/>
@@ -237,137 +453,706 @@
         <Class IRI="#flavors"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#fruits"/>
-        <Class IRI="#pairedWithFood"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hard"/>
-        <Class IRI="#type"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#milk"/>
-        <Class IRI="#dairyProducts"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#nonDairyProducts"/>
         <Class IRI="#ingredient"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#notPairedWithDrink"/>
-        <Class IRI="#drinkPairing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#notPairedWithFood"/>
-        <Class IRI="#foodPairing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#occasions"/>
-        <Class IRI="#eatingTime"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#pairedWithDrink"/>
-        <Class IRI="#drinkPairing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#pairedWithFood"/>
-        <Class IRI="#foodPairing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#pastry"/>
-        <Class IRI="#pairedWithFood"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#soft"/>
-        <Class IRI="#type"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stick"/>
-        <Class IRI="#wrapped"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sweeteners"/>
         <Class IRI="#ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#timeOfDay"/>
-        <Class IRI="#eatingTime"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#unwrapped"/>
-        <Class IRI="#servingStyles"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#weatherConditions"/>
         <Class IRI="#eatingTime"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#wrapped"/>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#almonds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#bakedBeans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fruitFlavors"/>
+        <NamedIndividual IRI="#banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#biscuits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#blackCoffee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#blackTea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#brand"/>
+        <NamedIndividual IRI="#brand9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#brownie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#cake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#caramel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#price"/>
+        <NamedIndividual IRI="#cheap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#chocolateCake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#chocolateChips"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#chocolateChips"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#chocolateFudge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#chocolatePowder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#chocolateSyrup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fruitFlavors"/>
+        <NamedIndividual IRI="#coconut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nonDairyProducts"/>
+        <NamedIndividual IRI="#coconut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#coconutCream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#coconutJuice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sweeteners"/>
+        <NamedIndividual IRI="#coconutSugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#coconutWater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#cofee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#cofee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#cofee"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#servingStyles"/>
-    </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#brand"/>
-        <NamedIndividual IRI="#aice"/>
+        <NamedIndividual IRI="#cone"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#brand"/>
-        <NamedIndividual IRI="#cornetto"/>
+        <Class IRI="#sweeteners"/>
+        <NamedIndividual IRI="#cornSyrup"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#brand"/>
-        <NamedIndividual IRI="#magnum"/>
+        <Class IRI="#dairyProducts"/>
+        <NamedIndividual IRI="#cream"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#brand"/>
-        <NamedIndividual IRI="#walls"/>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#cream"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#servingStyles"/>
+        <NamedIndividual IRI="#cup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#doughCookies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#espresso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#price"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#fruitJuice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#fruitSalad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#fudgeSyrup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#gratedCoconut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#greenTea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#type"/>
+        <NamedIndividual IRI="#hard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sweeteners"/>
+        <NamedIndividual IRI="#honey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#hotChocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weatherConditions"/>
+        <NamedIndividual IRI="#hotWeather"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iceCream"/>
+        <NamedIndividual IRI="#iceCream9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#icedTea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#liquidCaramel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fruitFlavors"/>
+        <NamedIndividual IRI="#mango"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#mascarpone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#matcha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#matchaMilk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#matchaPowder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#matchaSyrup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#meltedChocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dairyProducts"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#mint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#mintLeaves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#mochi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eatingTime"/>
+        <NamedIndividual IRI="#occasion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#orangeJuice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#oreo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#oreoChips"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#peanut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#pistachio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#pistachioNuts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#pistachioNuts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#raisins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#raisins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#roastedAlmonds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#roastedRaisins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#rum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#rum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#saltedCaramel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#seaSalt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#shortcake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#shortcakeCrumbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#sliceBanana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#sliceMango"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#type"/>
+        <NamedIndividual IRI="#soft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fruitFlavors"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#toppings"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sweeteners"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#tea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#tiramisuCake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#flavors"/>
+        <NamedIndividual IRI="#vanilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#vanillaBean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foodPairing"/>
+        <NamedIndividual IRI="#wafer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weatherConditions"/>
+        <NamedIndividual IRI="#warm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#additionalMaterials"/>
+        <NamedIndividual IRI="#water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#drinkPairing"/>
+        <NamedIndividual IRI="#wine"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#blackCoffee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#cake"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#wafer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#cone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#vanillaBean"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#brand1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlavors"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#vanilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#honey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#brand2"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#brand"/>
-        <NamedIndividual IRI="#cornetto"/>
-        <Literal>cornetto</Literal>
+        <NamedIndividual IRI="#brand1"/>
+        <Literal>Haagen-Dazs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand2"/>
+        <Literal>Ben &amp; Jerry&apos;s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand3"/>
+        <Literal>Magnum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand4"/>
+        <Literal>Galato di Natura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand5"/>
+        <Literal>Oreo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand6"/>
+        <Literal>Talenti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand7"/>
+        <Literal>Baskin Robbins</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand8"/>
+        <Literal>Dippin&apos; Dots</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#brand"/>
+        <NamedIndividual IRI="#brand9"/>
+        <Literal>Coconut Bliss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream1"/>
+        <Literal>Vanila Bean</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream10"/>
+        <Literal>Rum Raisin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream11"/>
+        <Literal>Chocolate Chip Mint</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream12"/>
+        <Literal>Banana Split</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream13"/>
+        <Literal>Tiramisu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream14"/>
+        <Literal>Coconut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream15"/>
+        <Literal>Choco Mint</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <Literal>Chocolate Fudge Brownie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <Literal>Matcha Green Tea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <Literal>Strawberry Shortcake</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <Literal>Pistachio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream6"/>
+        <Literal>Cookies &amp; Cream</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream7"/>
+        <Literal>Salted Caramel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream8"/>
+        <Literal>Mango Sorbet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#iceCream9"/>
+        <Literal>Cookie Dough</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#bestDrinkPairing"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bestEating"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#bestFoodPairing"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestNotDrinkPairing"/>
-        <ObjectProperty IRI="#bestDrinkPairing"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestNotFoodPairing"/>
-        <ObjectProperty IRI="#bestFoodPairing"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestOccasions"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestPairingWithDrink"/>
-        <ObjectProperty IRI="#bestDrinkPairing"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestPairingWithFood"/>
-        <ObjectProperty IRI="#bestFoodPairing"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#bestTimeOfDay"/>
+        <ObjectProperty IRI="#bestServingStyle"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#bestWeatherConditions"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#bestEating"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasAdditive"/>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
         <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBrand"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDairyProducts"/>
         <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFlavors"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasFruitFlavors"/>
@@ -376,65 +1161,45 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNonDairyProducts"/>
         <ObjectProperty IRI="#hasIngridient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSweeteners"/>
         <ObjectProperty IRI="#hasIngridient"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasTypeHard"/>
-        <ObjectProperty IRI="#hasType"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasTypeSoft"/>
-        <ObjectProperty IRI="#hasType"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasUnwrapped"/>
-        <ObjectProperty IRI="#bestServingStyle"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasWrapped"/>
-        <ObjectProperty IRI="#bestServingStyle"/>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#bestDrinkPairing"/>
         <Class IRI="#pairingWith"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bestEating"/>
+        <Class IRI="#iceCream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#bestFoodPairing"/>
         <Class IRI="#foodPairing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestNotDrinkPairing"/>
-        <Class IRI="#drinkPairing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestNotFoodPairing"/>
-        <Class IRI="#foodPairing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestOccasions"/>
-        <Class IRI="#eatingTime"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestPairingWithDrink"/>
-        <Class IRI="#drinkPairing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestPairingWithFood"/>
-        <Class IRI="#foodPairing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#bestTimeOfDay"/>
-        <Class IRI="#eatingTime"/>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <Class IRI="#iceCream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#bestWeatherConditions"/>
         <Class IRI="#eatingTime"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasAdditive"/>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <Class IRI="#ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBrand"/>
         <Class IRI="#iceCream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -456,6 +1221,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasNonDairyProducts"/>
         <Class IRI="#ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#iceCream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSweeteners"/>
@@ -469,57 +1238,29 @@
         <ObjectProperty IRI="#hasType"/>
         <Class IRI="#iceCream"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTypeHard"/>
-        <Class IRI="#iceCream"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTypeSoft"/>
-        <Class IRI="#iceCream"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasUnwrapped"/>
-        <Class IRI="#servingStyles"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasWrapped"/>
-        <Class IRI="#servingStyles"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#bestDrinkPairing"/>
         <Class IRI="#drinkPairing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestNotDrinkPairing"/>
-        <Class IRI="#notPairedWithDrink"/>
+        <ObjectProperty IRI="#bestEating"/>
+        <Class IRI="#eatingTime"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestNotFoodPairing"/>
-        <Class IRI="#pairedWithFood"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestOccasions"/>
-        <Class IRI="#occasions"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestPairingWithDrink"/>
-        <Class IRI="#pairedWithDrink"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestPairingWithFood"/>
-        <Class IRI="#pairedWithFood"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#bestTimeOfDay"/>
-        <Class IRI="#timeOfDay"/>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <Class IRI="#servingStyles"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#bestWeatherConditions"/>
         <Class IRI="#weatherConditions"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasAdditive"/>
-        <Class IRI="#additives"/>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <Class IRI="#additionalMaterials"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBrand"/>
+        <Class IRI="#brand"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDairyProducts"/>
@@ -542,6 +1283,10 @@
         <Class IRI="#nonDairyProducts"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#price"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSweeteners"/>
         <Class IRI="#sweeteners"/>
     </ObjectPropertyRange>
@@ -552,22 +1297,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasType"/>
         <Class IRI="#type"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasTypeHard"/>
-        <Class IRI="#hard"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasTypeSoft"/>
-        <Class IRI="#soft"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasUnwrapped"/>
-        <Class IRI="#unwrapped"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasWrapped"/>
-        <Class IRI="#wrapped"/>
     </ObjectPropertyRange>
 </Ontology>
 
