@@ -1554,7 +1554,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#bestFoodPairing"/>
-        <Class IRI="#foodPairing"/>
+        <Class IRI="#pairingWith"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#bestServingStyle"/>
@@ -1615,6 +1615,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#bestEating"/>
         <Class IRI="#eatingTime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <Class IRI="#foodPairing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#bestServingStyle"/>
