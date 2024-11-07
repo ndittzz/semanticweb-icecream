@@ -995,7 +995,377 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream10"/>
+        <NamedIndividual IRI="#brand7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream11"/>
+        <NamedIndividual IRI="#brand7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream12"/>
+        <NamedIndividual IRI="#brand8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream13"/>
+        <NamedIndividual IRI="#brand1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream14"/>
+        <NamedIndividual IRI="#brand9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream15"/>
+        <NamedIndividual IRI="#brand1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
         <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#cofee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestEating"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#occasion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#chocolateCake"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#cone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#brownie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#chocolateFudge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#brand2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlavors"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#cornSyrup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#chocolateChips"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#fudgeSyrup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#iceCream2"/>
+        <NamedIndividual IRI="#hard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#greenTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#matchaMilk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#mochi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#cone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestWeatherConditions"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#warm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#matchaPowder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#brand1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlavors"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#matcha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#matchaSyrup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#roastedAlmonds"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#iceCream3"/>
+        <NamedIndividual IRI="#hard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#fruitJuice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#icedTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestEating"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#occasion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#biscuits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#cake"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#cone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#cup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#shortcake"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#brand3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFruitFlavors"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#shortcakeCrumbs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#strawbery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#iceCream4"/>
+        <NamedIndividual IRI="#hard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#cofee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestDrinkPairing"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#greenTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestEating"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#occasion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestFoodPairing"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#wafer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bestServingStyle"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#cone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAdditionalMaterials"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#pistachioNuts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#brand4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDairyProducts"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlavors"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#pistachio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDairyProducts"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#expensive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSweeteners"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#chocolateSyrup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToppings"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#pistachioNuts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#iceCream5"/>
+        <NamedIndividual IRI="#soft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream6"/>
+        <NamedIndividual IRI="#brand5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream7"/>
+        <NamedIndividual IRI="#brand2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream8"/>
+        <NamedIndividual IRI="#brand6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#iceCream9"/>
         <NamedIndividual IRI="#brand2"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
